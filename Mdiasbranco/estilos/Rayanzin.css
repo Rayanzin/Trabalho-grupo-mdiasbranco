@@ -1,0 +1,150 @@
+@charset "utf-8";
+
+:root {
+    --primary: #001f5f;
+}
+
+/* wave for top */
+.custom-shape-divider-top-1715727723 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1715727723 svg {
+    position: relative;
+    display: block;
+    width: calc(140% + 1.3px);
+    height: 31px;
+}
+
+.custom-shape-divider-top-1715727723 .shape-fill {
+    fill: #fff;
+}
+
+/*wave for bottom */
+section#sobre {
+    width: 100%;
+    height: 260px;
+}
+
+section#sobre>ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+section#sobre>ul>li {
+    background-color: white;
+    margin: 10px;
+    width: 200px;
+    height: 220px;
+    justify-content: center;
+    border-radius: 10px;
+    border: 2px solid var(--primary);
+}
+
+section#sobre>ul>li:hover {
+    border: 2px solid rgb(192, 192, 50);
+    transition: border .3s;
+    cursor: pointer;
+}
+
+section#sobre>ul>li>div {
+    background-color: black;
+    width: 70px;
+    height: 70px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    color: white;
+}
+
+section#sobre>ul>li>p {
+    text-align: center;
+    font-weight: bold;
+    color: var(--primary);
+    padding: 5px;
+}
+
+.custom-shape-divider-bottom-1715728897 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1715728897 svg {
+    position: relative;
+    display: block;
+    width: calc(148% + 1.3px);
+    height: 71px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1715728897 .shape-fill {
+    fill: #FFFFFF;
+}
+
+#marcas {
+    background-color: var(--primary);
+    width: 100%;
+    height: 540px;
+    position: absolute;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#marcas>#nossasmarcas {
+    color: white;
+    width: 50%;
+}
+
+#marcas>#nossasmarcas>h2 {
+    position: relative;
+    font-size: 2em;
+    width: 300px;
+    margin-bottom: 30px;
+}
+
+#marcas>#nossasmarcas>h2>img {
+    position: absolute;
+    top: -40px;
+    left: 280px;
+    width: 100px;
+}
+
+#marcas>#nossasmarcas>div>a {
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+}
+#linkmarcas{
+    cursor: pointer;
+}
+div#linkmarcas > #underline{
+    display: block;
+    margin-top: 10px;
+    background-color: white;
+    width: 155px;
+    height: 2px;
+}
+
+#linkmarcas:hover, #linkmarcas:hover > #underline{
+    font-size: 1.1em;
+    transition-duration: .2s;
+    width: 170px;
+}
+#marcas>#roleta {
+    color: white;
+    /* flex: 1; */
+}
