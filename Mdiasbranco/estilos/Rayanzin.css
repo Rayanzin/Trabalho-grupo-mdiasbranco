@@ -101,11 +101,11 @@ section#sobre>ul>li>p {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 300px;
 }
 
 #marcas>#nossasmarcas {
     color: white;
-    width: 50%;
 }
 
 #marcas>#nossasmarcas>h2 {
@@ -128,10 +128,13 @@ section#sobre>ul>li>p {
     font-size: 1em;
     font-weight: bold;
 }
-#linkmarcas{
+
+#linkmarcas {
     cursor: pointer;
+    display: inline-block;
 }
-div#linkmarcas > #underline{
+
+div#linkmarcas>#underline {
     display: block;
     margin-top: 10px;
     background-color: white;
@@ -139,12 +142,93 @@ div#linkmarcas > #underline{
     height: 2px;
 }
 
-#linkmarcas:hover, #linkmarcas:hover > #underline{
+#linkmarcas:hover{
+    transition: .2s;
     font-size: 1.1em;
-    transition-duration: .2s;
+    margin-top: -5px;
+}
+#linkmarcas:hover > #underline{
+    transition: .2s;
     width: 170px;
 }
+
 #marcas>#roleta {
-    color: white;
-    /* flex: 1; */
+    background-color: darkred;
+    width: 430px;
+    height: 430px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+    position: relative;
+    z-index: 1;
+}
+
+#roleta .img-redonda {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 4px solid var(--primary);
+    transform: translate(-50%, -50%);
+}
+
+
+#roleta .img-redonda:hover, #jasmine:hover{
+    border: 4px solid rgb(145, 145, 32);
+}
+#piraque{
+    position: absolute;
+    top: 0%;
+    left: 50%;
+}
+#vitarela{
+    position: absolute;
+    top:15%;
+    left: 85%;
+}
+#isabela{
+    position: absolute;
+    top: 50%;
+    left: 100%;
+}
+#jasmine{
+    border-radius: 50%;
+    border: 4px solid var(--primary);
+    width: 120px;
+    height: 120px;
+    background-color: white;
+    position: absolute;
+    top: 85%;
+    left: 85%;
+    transform: translate(-50%, -50%);
+}
+#fitfood{
+    position: absolute;
+    top: 100%;
+    left: 50%;
+}
+#ff{
+    position: absolute;
+    top: 85%;
+    left: 15%;
+}
+#adria{
+    position: absolute;
+    top: 50%;
+    left: 0%;
+}
+#acacias{
+    position: absolute;
+    top: 15%;
+    left: 15%;
+}
+#jasmine > #jasmine-redonda{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    width: 100px;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+}
+
+#acacias > .img-redonda{
+    background-color: white;
 }
