@@ -5,7 +5,7 @@
 }
 
 /* wave for top */
-.custom-shape-divider-top-1715727723 {
+.custom-shape-divider-top-1715903805 {
     position: absolute;
     top: 0;
     left: 0;
@@ -14,15 +14,15 @@
     line-height: 0;
 }
 
-.custom-shape-divider-top-1715727723 svg {
+.custom-shape-divider-top-1715903805 svg {
     position: relative;
     display: block;
-    width: calc(140% + 1.3px);
-    height: 31px;
+    width: calc(114% + 1.3px);
+    height: 37px;
 }
 
-.custom-shape-divider-top-1715727723 .shape-fill {
-    fill: #fff;
+.custom-shape-divider-top-1715903805 .shape-fill {
+    fill: #FFFFFF;
 }
 
 /*wave for bottom */
@@ -145,7 +145,6 @@ div#linkmarcas>#underline {
 #linkmarcas:hover{
     transition: .2s;
     font-size: 1.1em;
-    margin-top: -5px;
 }
 #linkmarcas:hover > #underline{
     transition: .2s;
@@ -153,13 +152,16 @@ div#linkmarcas>#underline {
 }
 
 #marcas>#roleta {
-    background-color: darkred;
     width: 430px;
     height: 430px;
     margin-bottom: 50px;
     border-radius: 50%;
     position: relative;
     z-index: 1;
+    display: flex;
+    background: url('../imgs/mesa.png');
+    background-size: cover;
+    background-color: rgb(44, 44, 115);
 }
 
 #roleta .img-redonda {
@@ -167,27 +169,53 @@ div#linkmarcas>#underline {
     height: 120px;
     border-radius: 50%;
     border: 4px solid var(--primary);
-    transform: translate(-50%, -50%);
+    /* transform: translate(-50%, -50%); */
 }
 
 
 #roleta .img-redonda:hover, #jasmine:hover{
     border: 4px solid rgb(145, 145, 32);
 }
+#piraque, #vitarela, #isabela, #jasmine, #fitfood, #ff, #adria, #acacias{
+    transform: translate(-50%, -50%);
+    
+}
+#piraque:hover #piraquepng, #vitarela:hover #vitarelapng, #isabela:hover #isabelapng, #jasmine:hover #jasminepng, #fitfood:hover #fitfoodpng, #ff:hover #ffpng, #adria:hover #adriapng, #acacias:hover #acaciaspng {
+    display: block
+}
 #piraque{
     position: absolute;
     top: 0%;
     left: 50%;
 }
+#piraquepng{
+    position: absolute;
+    top: 280px;
+    left: 60px;
+}
+
 #vitarela{
     position: absolute;
     top:15%;
     left: 85%;
 }
+#vitarelapng{
+    position: absolute;
+    top: 240px;
+    left: -80px;
+}
 #isabela{
     position: absolute;
     top: 50%;
     left: 100%;
+}
+#isabelapng{
+    position: absolute;
+    top:70px;
+    left: -160px;
+    width: 320px;
+    object-fit: contain;
+
 }
 #jasmine{
     border-radius: 50%;
@@ -198,27 +226,63 @@ div#linkmarcas>#underline {
     position: absolute;
     top: 85%;
     left: 85%;
-    transform: translate(-50%, -50%);
+    object-fit: contain;
+}
+#jasminepng{
+    position: absolute;
+    top: -65px;
+    left: -90px;
+    width: 340px;
+    height: 180px;
+    object-fit: contain;
+
 }
 #fitfood{
     position: absolute;
     top: 100%;
     left: 50%;
 }
+#fitfoodpng{
+    position: absolute;
+    top: -140px;
+    left: 70px;
+    width: 380px;
+    height: 250px;
+    object-fit: contain;
+}
 #ff{
     position: absolute;
     top: 85%;
     left: 15%;
+    z-index: -1;
 }
+#ffpng{ 
+    top: -88px;
+    left: 210px;
+}
+
+
 #adria{
     position: absolute;
     top: 50%;
     left: 0%;
 }
+#adriapng{
+    position: absolute;
+    top: 80px;
+    left: 275px;
+    width: 300px;
+    object-fit: contain;
+}
 #acacias{
     position: absolute;
     top: 15%;
     left: 15%;
+}
+#acaciaspng{
+    position: absolute;
+    top: 210px;
+    left: 210px;
 }
 #jasmine > #jasmine-redonda{
     position: relative;
@@ -227,8 +291,16 @@ div#linkmarcas>#underline {
     width: 100px;
     object-fit: cover;
     transform: translate(-50%, -50%);
+    
 }
 
 #acacias > .img-redonda{
     background-color: white;
+}
+.gambiarra{
+    display: none;
+    width: 380px;
+    height: 200px;
+    position: absolute;
+    transform: translate(-50%, -50%);
 }
