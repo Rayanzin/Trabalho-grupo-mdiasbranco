@@ -1,5 +1,11 @@
 .nav{
     color: #ffffff !important;
+    
+}
+.bg-body-tertiary {
+    padding-left: 140px;
+    background-color: #001F5F !important;
+
 }
 .hidden{
     display: none;
@@ -8,11 +14,6 @@
 
 .nav:hover>.hidden {
     display: block;
-}
-
-.bg-body-tertiary {
-    background-color: #001F5F !important;
-
 }
 
 .width {
@@ -24,7 +25,17 @@ header {
     margin-bottom: 20px;
     position: relative;
 }
+.nav2 {
+    background-color: #1e4cd700 !important;
+    position: absolute !important;
+    z-index: 1;
+    width: 100vw;
+    display: flex !important;
+}
 
+.logo{
+    width: 200px;
+}
 .rodape {
     position: absolute;
     top: 101%;
@@ -38,3 +49,11 @@ header {
 .legenda {
     position: absolute;
 }
+#gap>li>a>img{
+    padding: 4px;
+}
+.navlogo{
+    /* display: inline-block !important; */
+    margin-left: 30px !important;
+    justify-content: center !important;
+ }
