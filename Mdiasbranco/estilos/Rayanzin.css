@@ -81,10 +81,10 @@ section#sobre>ul>li>p {
 }
 
 .custom-shape-divider-bottom-1715728897 svg {
-    /* position: relative; */
+    position: relative;
     display: block;
     width: calc(148% + 1.3px);
-    height: 71px;
+    height: 72px;
     transform: rotateY(180deg);
 }
 
