@@ -1,4 +1,32 @@
-
+.nav{
+    color: #ffffff !important;
+}
+.hidden{
+    display: none;
+}
+.nav:hover>.hidden{
+display: block;
+}
 .bg-body-tertiary{
     background-color: #001F5F !important;
+    
+}
+
+.width{
+    width:100% !important;
+    height: 800px !important;
+}
+header{
+    margin-bottom: 20px;
+    position: relative;
+}
+.rodape{
+position: absolute;
+top: 60%;
+}
+.carrosel{
+    position: relative;
+}
+.legenda{
+    position: absolute;
 }
