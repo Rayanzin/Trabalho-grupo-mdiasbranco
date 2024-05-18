@@ -55,8 +55,8 @@ section#sobre>ul>li:hover {
 
 section#sobre>ul>li>div {
     background-color: black;
-    width: 70px;
-    height: 70px;
+    width: 100px;
+    height: 80px;
     margin: auto;
     margin-top: 30px;
     margin-bottom: 40px;
@@ -81,7 +81,7 @@ section#sobre>ul>li>p {
 }
 
 .custom-shape-divider-bottom-1715728897 svg {
-    position: relative;
+    /* position: relative; */
     display: block;
     width: calc(148% + 1.3px);
     height: 71px;
@@ -96,7 +96,7 @@ section#sobre>ul>li>p {
     background-color: var(--primary);
     width: 100%;
     height: 540px;
-    position: absolute;
+    position: relative;
     margin-top: 50px;
     display: flex;
     justify-content: center;
@@ -303,4 +303,29 @@ div#linkmarcas>#underline {
     height: 200px;
     position: absolute;
     transform: translate(-50%, -50%);
+}
+#susten{
+    margin: auto;
+    width: 1110px;
+    height: 540px;
+    display: flex;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.compromissos{
+    background-color: rgb(182, 155, 155);
+    width: 33.33%;
+    height: 100%;
+}
+#ambiente{
+    background: url('../imgs/ambiente.jpg');
+    cursor: pointer;
+}
+#social{
+    background: url('../imgs/social.jpg');
+    background-position: center;
+}
+#governanca{
+    background: url('../imgs/governança.jpg');
+    background-position: center;
 }
