@@ -1,3 +1,4 @@
+
 .nav{
     color: #ffffff !important;
     
@@ -5,7 +6,7 @@
 .bg-body-tertiary {
     padding-left: 180px;
     background-color: #001F5F !important;
-
+    margin: -15px 0;
 }
 .hidden{
     display: none;
@@ -59,18 +60,21 @@ header {
 
 .legenda {
     position: absolute;
+    width: 450px;
+    margin-left: 300px;
 }
 #gap>li>a>img{
-    padding: 3px;
+    padding: 3px; 
+}
+.navbar-text{
+    margin-right: 20%;
 }
 .navlogo{
-    /* display: inline-block !important; */
     margin-left: 30px !important;
     justify-content: center !important;
  }
  .legenda, span{
     top: 35%;
-    margin-left: 20vh;
     color:#ffffff;
     font-family: "Bookerly", Sans-serif;
     font-size: 38px;
