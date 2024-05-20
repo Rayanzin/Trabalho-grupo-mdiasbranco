@@ -3,6 +3,10 @@
     color: #ffffff !important;
     
 }
+.nav:hover{
+    color: #AC8500 !important;
+    
+}
 .bg-body-tertiary {
     padding-left: 180px;
     background-color: #001F5F !important;
