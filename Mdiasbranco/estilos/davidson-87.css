@@ -1,0 +1,76 @@
+#noticias{
+    width: 1150px;
+    height: 380px;
+    list-style: none;
+    display: flex;
+    margin: auto;
+    gap: 20px;
+    
+}
+#noticias>li {
+    width: 350px;
+    height: 380px;
+    background-color: red;
+    border-radius: 10px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+#noticias h3 {
+    color: white;
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-top: 70%;
+}
+
+#noticias a, #lertodas {
+    color: #FFFFFF;
+    text-decoration: none;
+    border-bottom: 2px solid white;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+#noticias a:hover, #lertodas:hover {
+    font-size: 1.3em;
+    transition: 0.5s;
+}
+#img1{
+    background:url('https://mdiasbranco.com.br/wp-content/uploads/2024/05/Auditor-Especialista-26-de-abril-1-scaled-e1714753155170-1024x452.jpg');
+    background-position: center center ;
+}
+#img2{
+    background: url('https://mdiasbranco.com.br/wp-content/uploads/2024/04/DSC04844-scaled-e1713899826634-1024x533.jpg');
+    background-position: top center ;
+}
+#img3{
+    background: url('https://mdiasbranco.com.br/wp-content/uploads/2024/04/IMG_0788-1-1024x683.jpg');
+    background-position: center center ;
+}
+
+#bolinhas{
+    margin: auto;
+    display: flex;
+    gap: 5px;
+    width: 130px;
+    margin-top: 20px;
+    list-style: none;
+
+}
+
+#bolinhas>li {
+    width: 12px;
+    height: 12px;
+    background-color: #001F5F;
+    border-radius: 50%;
+}
+
+#lertodas {
+    color: #001F5F;
+    border-color: #001F5F;
+    width: 95px;
+    display: block;
+    margin-left: 47.8%;
+    margin-top: 30px;
+
+}
